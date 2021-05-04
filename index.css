@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url("https://wallpapercave.com/wp/wp7898683.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    box-shadow: rgba(255, 6, 6, 0.534);
+}
+.box{
+    height: 400px;
+    width: 400px;
+    margin: auto auto;
+    top: 8pc;
+    position: relative;
+    color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+.heading{
+    font-size: 50px;
+    font-family: Algebric;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bolder;
+    top: 50px;
+    position: relative;
+}
+button{
+    background: red;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 0 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+button:hover{
+    background: green ;
+    padding: 10px 10px;
+}
+.one{
+    top: 6pc;
+    left: 80px;
+    position: relative;
+}
+.two{
+    top: 8pc;
+    left: 80px;
+    position: relative;
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: Algerian;
+    font-weight: lighter;
+    animation: Animation 1s linear 0.5s infinite alternate-reverse;
+
+
+}
+@keyframes Animation {
+    0%{
+        background: none;
+        transform: translate(0px,0px);
+    }
+    50%{
+        background: none;
+        transform: translate(0px,10px);
+    }
+    100% {
+        background: none;
+        transform: translate(0px,20px);
+    }
+
+}
